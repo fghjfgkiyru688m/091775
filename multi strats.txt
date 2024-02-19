@@ -1,5 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Sigmanic/Strategies-X/main/Loader.lua", true))()
-
 local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/wxzex/mmsautostratcontinuation/main/autostratscode.txt", true))() 
 TDS:Loadout("DJ Booth", "Commander", "Soldier", "Engineer", "Farm") 
 TDS:Map("Grass Isle", true, "Survival")
@@ -161,7 +159,6 @@ task.spawn(function()
         end
     end
 end)
-TDS:Mode('Normal' --[[ !DONT TOUCH! THIS IS CORRECT, IN GAME FILES Molten IS NAMED Normal ]])
 TDS:Place('Soldier', 9.21131706237793, 1.0000064373016357, 4.634635925292969, 0, 0, 14.4, false, 0, 0, 0, false)
 TDS:Upgrade(1, 0, 0, 10.1, false)
 TDS:Place('Soldier', 9.472562789916992, 1.0000064373016357, 1.4812769889831543, 1, 0, 2.6, false, 0, 0, 0, true)
